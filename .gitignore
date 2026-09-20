@@ -4,3 +4,10 @@ __pycache__/
 .venv/
 venv/
 .vercel
+
+# Hardhat / Node
+contracts/node_modules/
+contracts/cache/
+contracts/artifacts/
+node_modules/
+package-lock.json
