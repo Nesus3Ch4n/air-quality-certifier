@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import get_settings
-from app.routers import health, items, air_quality
+from app.routers import health, items, air_quality, monitor
 
 settings = get_settings()
 
@@ -23,6 +23,7 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(items.router)
 app.include_router(air_quality.router)
+app.include_router(monitor.router)
 
 
 @app.get("/")
