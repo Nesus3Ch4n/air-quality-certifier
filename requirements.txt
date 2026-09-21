@@ -11,4 +11,3 @@ python-dotenv==1.0.1
 
 # Blockchain — anclaje on-chain en Ethereum / HashKey Chain
 web3==7.5.0
-py-solc-x==2.0.5

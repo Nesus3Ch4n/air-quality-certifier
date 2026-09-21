@@ -5,6 +5,10 @@ __pycache__/
 venv/
 .vercel
 
+# Archivos sensibles — nunca subir a git
+docs/supabase apis.txt
+docs/key wallet.txt
+
 # Hardhat / Node
 contracts/node_modules/
 contracts/cache/
